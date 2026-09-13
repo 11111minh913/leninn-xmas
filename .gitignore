@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENINN SKATE SHOP - XMAS COLLECTION</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#121212',
+                        brandCard: '#1E1E1E',
+                        xmasRed: '#8B0000',
+                        xmasRedHover: '#A70000',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brandDark text-gray-100 font-sans antialiased">
+
+    <!-- HEADER & LOGO -->
+    <header class="w-full border-b border-gray-800 bg-brandDark/90 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black tracking-tighter text-white">
+                LENINN <span class="text-xmasRed">.</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-white transition">VỀ BST</a>
+                <a href="#products" class="hover:text-white transition">SẢN PHẨM</a>
+                <a href="#register" class="hover:text-white transition">ƯU ĐÃI XMAS</a>
+            </nav>
+            <a href="#register" class="bg-xmasRed hover:bg-xmasRedHover text-white px-5 py-2 rounded-md font-semibold text-sm transition shadow-lg">
+                NHẬN ƯU ĐÃI
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-6">
+            <span class="inline-block bg-xmasRed/20 text-xmasRed border border-xmasRed/40 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                Xmas Special Collection (Target 23-27)
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white uppercase leading-tight">
+                Holiday Street Heat
+            </h1>
+            <p class="text-gray-400 text-lg">
+                Nâng cấp phong cách streetwear mùa lễ hội. Những thiết kế giới hạn kết hợp chất liệu Corduroy và Denim cao cấp dành riêng cho Giáng Sinh.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                <a href="#products" class="bg-xmasRed hover:bg-xmasRedHover text-white text-center px-8 py-3 rounded-md font-bold transition shadow-lg">
+                    KHÁM PHÁ NGAY
+                </a>
+                <a href="#register" class="border border-gray-700 hover:border-gray-500 text-gray-300 text-center px-8 py-3 rounded-md font-bold transition">
+                    ĐĂNG KÝ MUA BST MỚI
+                </a>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="w-full max-w-md bg-brandCard p-4 rounded-xl border border-gray-800 shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop&q=60" alt="Leninn Xmas Jacket" class="w-full h-80 object-cover rounded-lg">
+                <div class="mt-4 flex justify-between items-center">
+                    <div>
+                        <p class="text-xs text-xmasRed font-bold">NEW ARRIVAL</p>
+                        <h3 class="text-lg font-bold">Savage Xmas Corduroy Bomber</h3>
+                    </div>
+                    <span class="text-white font-black">1.150.000đ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHT PRODUCTS -->
+    <section id="products" class="max-w-6xl mx-auto px-4 py-16 border-t border-gray-800">
+        <div class="text-center space-y-3 mb-12">
+            <h2 class="text-3xl font-black uppercase tracking-tight">Sản Phẩm Nổi Bật</h2>
+            <p class="text-gray-400">Các items chọn lọc dành riêng cho Year-End Party và không khí Giáng Sinh.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-brandCard p-4 rounded-xl border border-gray-800 hover:border-xmasRed transition duration-300">
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop&q=60" class="w-full h-64 object-cover rounded-lg mb-4">
+                <span class="text-xs font-bold text-xmasRed">LIMITED EDITION</span>
+                <h3 class="text-xl font-bold mt-1">Savage Bomber Xmas</h3>
+                <p class="text-gray-400 text-sm mt-2">Nhung tăm dệt phối Denim giữ ấm cao cấp.</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="font-bold text-lg">1.150.000đ</span>
+                    <a href="#register" class="bg-gray-800 hover:bg-xmasRed px-3 py-1.5 rounded text-xs font-bold transition">MUA NGAY</a>
+                </div>
+            </div>
+            <div class="bg-brandCard p-4 rounded-xl border border-gray-800 hover:border-xmasRed transition duration-300">
+                <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600&auto=format&fit=crop&q=60" class="w-full h-64 object-cover rounded-lg mb-4">
+                <span class="text-xs font-bold text-xmasRed">BEST SELLER</span>
+                <h3 class="text-xl font-bold mt-1">Monogram Corduroy Jort</h3>
+                <p class="text-gray-400 text-sm mt-2">Form trượt ván thoải mái, họa tiết độc quyền.</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="font-bold text-lg">650.000đ</span>
+                    <a href="#register" class="bg-gray-800 hover:bg-xmasRed px-3 py-1.5 rounded text-xs font-bold transition">MUA NGAY</a>
+                </div>
+            </div>
+            <div class="bg-brandCard p-4 rounded-xl border border-gray-800 hover:border-xmasRed transition duration-300">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=60" class="w-full h-64 object-cover rounded-lg mb-4">
+                <span class="text-xs font-bold text-xmasRed">XMAS GIFT BOX</span>
+                <h3 class="text-xl font-bold mt-1">Leninn Beanie & Socks Set</h3>
+                <p class="text-gray-400 text-sm mt-2">Bộ quà tặng phụ kiện Giáng Sinh phiên bản giới hạn.</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="font-bold text-lg">350.000đ</span>
+                    <a href="#register" class="bg-gray-800 hover:bg-xmasRed px-3 py-1.5 rounded text-xs font-bold transition">MUA NGAY</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM ĐẶT HÀNG -->
+    <section id="register" class="max-w-3xl mx-auto px-4 py-16">
+        <div class="bg-brandCard p-8 rounded-2xl border border-xmasRed/40 shadow-2xl text-center space-y-6">
+            <h2 class="text-3xl font-black uppercase">Đăng Ký Nhận Ưu Đãi Xmas 2026</h2>
+            <p class="text-gray-400 text-sm">Điền thông tin để nhận Voucher giảm 15% cho đơn hàng đầu tiên và quà tặng phụ kiện đi kèm.</p>
+            
+            <form class="space-y-4 text-left">
+                <div>
+                    <label class="block text-xs font-bold text-gray-400 mb-1">HỌ VÀ TÊN</label>
+                    <input type="text" placeholder="Nguyễn Văn A" class="w-full bg-brandDark border border-gray-700 rounded-md p-3 text-white focus:outline-none focus:border-xmasRed">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-400 mb-1">SỐ ĐIỆN THOẠI</label>
+                    <input type="tel" placeholder="0901234567" class="w-full bg-brandDark border border-gray-700 rounded-md p-3 text-white focus:outline-none focus:border-xmasRed">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-gray-400 mb-1">SẢN PHẨM QUAN TÂM</label>
+                    <select class="w-full bg-brandDark border border-gray-700 rounded-md p-3 text-white focus:outline-none focus:border-xmasRed">
+                        <option>Savage Bomber Xmas</option>
+                        <option>Monogram Corduroy Jort</option>
+                        <option>Leninn Beanie & Socks Set</option>
+                    </select>
+                </div>
+                <button type="button" class="w-full bg-xmasRed hover:bg-xmasRedHover text-white font-bold py-3.5 rounded-md transition shadow-lg mt-4">
+                    GỬI ĐĂNG KÝ MUA HÀNG
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 py-8 text-center text-xs text-gray-500">
+        <p class="font-bold text-gray-400">LENINN SKATE SHOP © 2026</p>
+        <p class="mt-1">Hà Nội: Nét Văn Hóa Trượt Ván Streetwear</p>
+    </footer>
+
+</body>
+</html>
